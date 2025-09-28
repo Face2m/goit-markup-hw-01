@@ -1,23 +1,23 @@
 body {
     background-color: #ffffff;
-    color: #434455
+    color: #434455;
     font-family: "Roboto", sans-serif;
 }
 
 /* nav icon */
 .icon-link {
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 span {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 nav > ul {
@@ -26,22 +26,36 @@ nav > ul {
 
 .nav-link {
     color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-address > ul {
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address > ul {
     font-style: normal;
     list-style-type: none;
 }
 
 .contact-link {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: green;
+    color: #404bbf;
 }
 
 .dark-background {
@@ -58,7 +72,6 @@ h1 {
 .order-button { 
     background-color: #4d5ae5;
     border: none;
-    border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
     padding: 16px 32px;
