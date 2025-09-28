@@ -60,13 +60,16 @@ nav > ul {
 
 .dark-background {
     background-image: url(/images/Dark-bg.jpg);
+    background-color: #2e2f42;
 }
 
-h1 { 
+.title-1 { 
+    color: #ffffff;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .order-button { 
@@ -74,20 +77,28 @@ h1 {
     border: none;
     color: #ffffff;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 16px 32px;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
 }
 
 .list-team {
     list-style-type: none;
 }
 
-h2 {
+.title-2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
 }
 
-h3 {
+.title-3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
