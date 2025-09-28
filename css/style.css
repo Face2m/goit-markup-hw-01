@@ -1,17 +1,22 @@
 body {
-    font-family: Roboto;
+    background-color: #ffffff;
+    color: #434455
+    font-family: "Roboto", sans-serif;
 }
 
 /* nav icon */
 .icon-link {
     color: #2e2f42;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.icon-link > span {
+span {
     color: #4d5ae5;
 }
 
@@ -57,7 +62,6 @@ h1 {
     color: #ffffff;
     cursor: pointer;
     padding: 16px 32px;
-    gap: 10px;
 }
 
 .list-team {
