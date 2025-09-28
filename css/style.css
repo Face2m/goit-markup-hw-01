@@ -91,16 +91,35 @@ nav > ul {
     list-style-type: none;
 }
 
+.third-sect {
+    background-color: #F4F4FD;
+}
+
 .second-title {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list-elem {
+    background-color: #FFFFFF;
 }
 
 .third-title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.list-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list-staff {
@@ -111,14 +130,18 @@ nav > ul {
     list-style-type: none;
 }
 
-footer {
+.foo {
     background-image: url(/images/Dark-bg.jpg);
+    background-color:#2e2f42;
 }
 
 .footer-icon-link {
-    color: #f4f4fd;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -127,6 +150,12 @@ footer {
     color: #4d5ae5;
 }
 
-footer > p {
+.icon-class {
     color: #f4f4fd;
+}
+
+.foo-p {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
