@@ -63,7 +63,7 @@ nav > ul {
     background-color: #2e2f42;
 }
 
-.title-1 { 
+.first-title { 
     color: #ffffff;
     font-size: 56px;
     font-weight: 700;
@@ -80,7 +80,6 @@ nav > ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
 }
 
 .order-button:hover,
@@ -92,13 +91,13 @@ nav > ul {
     list-style-type: none;
 }
 
-.title-2 {
+.second-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
 }
 
-.title-3 {
+.third-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
