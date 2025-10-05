@@ -151,7 +151,7 @@ nav > ul {
     list-style-type: none;
 }
 
-.list-team-item {
+.list-team > li {
     width: calc((100% - 72px) / 4);
 }
 
@@ -177,6 +177,9 @@ nav > ul {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.staff-img {
+    width: calc((100% - 72px) / 4);
+}
 
 .third-title {
     color: #2e2f42;
@@ -217,7 +220,7 @@ nav > ul {
     list-style-type: none;
 }
 
-.list-portf-item > img {
+.portf-img {
     width: calc((100% - 48px) / 3);
 }
 
