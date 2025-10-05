@@ -4,16 +4,47 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+img {
+    display: block;
+}
+
+.head { 
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.head-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+}
+
+.nav-cont {
+    align-items: center;
+    display: flex;
+}
+
 /* nav icon */
 .icon-link {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin-right: 76px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .icon-nav-style {
@@ -29,6 +60,7 @@ nav > ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     text-decoration: none;
 }
 
@@ -41,8 +73,10 @@ nav > ul {
     font-style: normal;
 }
 
-.address > ul {
+.address-list {
+    display: flex;
     font-style: normal;
+    gap: 40px;
     list-style-type: none;
 }
 
@@ -61,6 +95,7 @@ nav > ul {
 .dark-background {
     background-image: url(/images/Dark-bg.jpg);
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .first-title { 
@@ -69,15 +104,20 @@ nav > ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
     text-align: center;
 }
 
 .order-button { 
     background-color: #4d5ae5;
     border: none;
+    border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
+    display: block;
     font-weight: 500;
+    height: 56px;
+    min-width: 169px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
