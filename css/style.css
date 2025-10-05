@@ -216,9 +216,9 @@ nav > ul {
     list-style-type: none;
 }
 
-.portf-img {
+/* .portf-img {
     width: calc((100% - 48px) / 3);
-}
+} */
 
 .list-portf-cont {
     border: 1px solid #e7e9fc;
