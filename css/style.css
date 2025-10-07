@@ -237,8 +237,12 @@ nav > ul {
     margin: 0 auto;
 }
 
-.portf-img {
+.list-portf-item {
     width: calc((100% - 48px) / 3);
+}
+
+.portf-img {
+    width: 100%;
 }
 
 .list-portf-cont {
